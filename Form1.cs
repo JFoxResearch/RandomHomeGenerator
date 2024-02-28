@@ -13,7 +13,14 @@ namespace RandomHomeGenerator
 {
     public partial class Form1 : Form
     {
-        static int sed =555;
+       
+
+        private Random random = new Random(); // Instance-level Random object
+        private static int sed = new Random().Next(1000); // Generate initial seed statically
+
+
+
+
         public Form1()
         {
             InitializeComponent();
@@ -65,7 +72,6 @@ namespace RandomHomeGenerator
                     numbers.Add((byte)i);
                     
                 }
-
                 byte[] result = new byte[256];
                 Random random = new Random(sed);
                 for (int i = 0; i < 256; i++)
