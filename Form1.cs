@@ -12,19 +12,12 @@ using System.Windows.Forms;
 namespace RandomHomeGenerator
 {
     public partial class Form1 : Form
-    {
-       
-
+    {     
         private Random random = new Random(); // Instance-level Random object
         private static int sed = new Random().Next(1000); // Generate initial seed statically
-
-
-
-
         public Form1()
         {
-            InitializeComponent();
-            
+            InitializeComponent();            
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -41,9 +34,7 @@ namespace RandomHomeGenerator
                 { data.Add(A[j]); }
             }
 
-
-
-            // Настройка свойств диалога сохранения
+            // 
             SaveFileDialog saveFileDialog1 = new SaveFileDialog();
 
             saveFileDialog1.Filter = "Binary files (*.bin)|*.bin";
@@ -69,8 +60,7 @@ namespace RandomHomeGenerator
             List<byte> numbers = new List<byte>(256);
                 for (int i = 0; i < 256; i++)
                 {
-                    numbers.Add((byte)i);
-                    
+                    numbers.Add((byte)i);                    
                 }
                 byte[] result = new byte[256];
                 Random random = new Random(sed);
@@ -84,8 +74,7 @@ namespace RandomHomeGenerator
             }
 
         private void textBox1_ChangeUICues(object sender, UICuesEventArgs e)
-        {
-            
+        {            
         }
 
         private void textBox1_KeyPress(object sender, KeyPressEventArgs e)
@@ -98,7 +87,6 @@ namespace RandomHomeGenerator
 
         private void textBox1_TextChanged(object sender, EventArgs e)
         {
-
         }
     }
     }
