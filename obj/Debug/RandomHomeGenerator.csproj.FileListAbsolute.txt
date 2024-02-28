@@ -1,0 +1,10 @@
+C:\Евгений\MS VS\ HomeGenerator\RandomHomeGenerator\bin\Debug\RandomHomeGenerator.exe.config
+C:\Евгений\MS VS\ HomeGenerator\RandomHomeGenerator\bin\Debug\RandomHomeGenerator.exe
+C:\Евгений\MS VS\ HomeGenerator\RandomHomeGenerator\bin\Debug\RandomHomeGenerator.pdb
+C:\Евгений\MS VS\ HomeGenerator\RandomHomeGenerator\obj\Debug\RandomHomeGenerator.csproj.AssemblyReference.cache
+C:\Евгений\MS VS\ HomeGenerator\RandomHomeGenerator\obj\Debug\RandomHomeGenerator.Form1.resources
+C:\Евгений\MS VS\ HomeGenerator\RandomHomeGenerator\obj\Debug\RandomHomeGenerator.Properties.Resources.resources
+C:\Евгений\MS VS\ HomeGenerator\RandomHomeGenerator\obj\Debug\RandomHomeGenerator.csproj.GenerateResource.cache
+C:\Евгений\MS VS\ HomeGenerator\RandomHomeGenerator\obj\Debug\RandomHomeGenerator.csproj.CoreCompileInputs.cache
+C:\Евгений\MS VS\ HomeGenerator\RandomHomeGenerator\obj\Debug\RandomHomeGenerator.exe
+C:\Евгений\MS VS\ HomeGenerator\RandomHomeGenerator\obj\Debug\RandomHomeGenerator.pdb
